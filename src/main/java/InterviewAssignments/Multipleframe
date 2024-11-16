@@ -1,0 +1,14 @@
+
+		
+		WebElement frameOne = driver.findElement(By.xpath("//frame[@src='htmlf.htm']"));
+
+        driver.switchTo().frame(frameOne);
+        driver.findElement(By.xpath("//a[normalize-space()='Javascript Scientific Calculator']")).click();
+
+        driver.switchTo().defaultContent();
+
+        WebElement frameTwo = driver.findElement(By.xpath("//frame[@src='message.htm']"));
+
+        driver.switchTo().frame(frameTwo);
+
+        driver.findElement(By.xpath("//input[@name='name']")).sendKeys("Naruto");

@@ -1,0 +1,24 @@
+1. Ctrl + Shift + O shortcut, which automatically imports unrecognized classes in code.
+2. Correct Indentation (Ctrl + I)  -Code readability is important—when you’re reading your own code at a later date, or when somebody else is.
+3. Delete Current Line (Ctrl + D)
+4. Then hit the Ctrl + Space key combination. This brings up a list of autocomplete recommendations along with method signatures, variable types, and more.
+Select the recommendation you want to apply, hit the Enter key, and keep coding.
+5. System.out.println ("sysout" and Ctrl + Space)
+6. Search Entire Project (Ctrl + H)
+7. Run Application (Ctrl + F11)
+The first time you run a new project, you should do it through Run > Run As... > Java Application. But after that, you can speed things up with the Ctrl + F11 shortcut. This runs the current project using the same configuration as the last time you ran it.
+8. Rename (Alt + Shift + R)
+Here's the thing about class, method, and variable names: your code might contain references to them many, many times. Now imagine if you ever needed to change the name of a class, method, or variable. It could take hours (or even days) to rename every single reference.
+Or you can right-click on the name, select Refactor > Rename, and type in the new name. Eclipse will then instantly change every single reference in the entire project. Even faster, you can click on the name, hit Alt + Shift + R, type in the new name, and hit Enter. Bam, done!
+
+Other Tips for Beginner Java Programmers
+There are many other Eclipse shortcuts that will help you. 
+Ctrl + Shift + F formats code, 
+Ctrl + E switches between editor tabs, 
+Ctrl + 1 quickly fixes errors, and so on.
+
+F6 - run script in debug mode line by line without get into any method
+F5 - run script in debug mode line by line WITH GET INTO METHOD
+F8 - run script in normal  mode.
+ chromedriver download
+https://chromedriver.storage.googleapis.com/index.html
